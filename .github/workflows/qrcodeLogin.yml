@@ -49,4 +49,4 @@ jobs:
           NUMBER: ${{ github.event.inputs.number }}
           PAT: ${{ secrets.PAT }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          FORCE_JAVASCRIPT_ACTIONS_TO_NODE24=true
+    
